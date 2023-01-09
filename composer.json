@@ -1,0 +1,14 @@
+{
+    "name": "anton-moskalenko/rune-api",
+    "keywords": [
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "anton-moskalenko/judex": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liloi\\API\\": "Source"
+        }
+    }
+}
