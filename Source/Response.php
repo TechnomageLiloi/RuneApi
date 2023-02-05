@@ -2,7 +2,7 @@
 
 namespace Liloi\API;
 
-class Application
+class Response
 {
 
 }
