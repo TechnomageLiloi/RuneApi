@@ -16,8 +16,13 @@ class Response
         return $this->list;
     }
 
-    public function getAsJSON(): string
+    public function getResponse(): string
     {
-        return json_encode($this->list, JSON_UNESCAPED_UNICODE);
+        $response = [
+            'response' => $this->list,
+            'debug' => [],
+            'statistics' => []
+        ];
+        return json_encode($response, JSON_UNESCAPED_UNICODE);
     }
 }
