@@ -65,6 +65,14 @@ class Manager
         return $this->list[$name];
     }
 
+    /**
+     * Execute API method.
+     *
+     * @param string $method
+     * @param array $parameters
+     * @return string
+     * @throws NotFoundException
+     */
     public function execute(
         string $method,
         array $parameters = []
