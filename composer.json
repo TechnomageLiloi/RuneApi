@@ -1,10 +1,10 @@
 {
-    "name": "anton-moskalenko/rune-api",
+    "name": "technomage-liloi/rune-api",
     "keywords": [
     ],
     "minimum-stability": "dev",
     "require": {
-        "anton-moskalenko/judex": "dev-master"
+        "technomage-liloi/judex": "dev-main"
     },
     "autoload": {
         "psr-4": {
