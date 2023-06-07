@@ -2,9 +2,7 @@
 
 namespace Liloi\API\Errors;
 
-use Judex\ExtendedException;
-
-class NotFoundException extends ExtendedException
+class NotFoundException extends Exception
 {
     /**
      * Exception message.

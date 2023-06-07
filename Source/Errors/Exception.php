@@ -2,7 +2,7 @@
 
 namespace Liloi\API\Errors;
 
-use Judex\ExtendedException;
+use Liloi\Judex\ExtendedException;
 
 class Exception extends ExtendedException
 {
